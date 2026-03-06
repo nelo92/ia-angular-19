@@ -32,6 +32,10 @@ export class DemoComponent {
     this.router.navigate(['/demo2']);
   }
 
+  goToDemo3() {
+    this.router.navigate(['/demo3']);
+  }
+
   add(a: number, b: number): number {
     return a + b;
   }
